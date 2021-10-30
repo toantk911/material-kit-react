@@ -10,7 +10,7 @@ import {
   Hidden,
   List,
   Typography
-} from '@material-ui/core';
+} from '@mui/material';
 import {
   AlertCircle as AlertCircleIcon,
   BarChart as BarChartIcon,
@@ -191,7 +191,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
           {content}
         </Drawer>
       </Hidden>
-      <Hidden xlDown>
+      <Hidden lgDown>
         <Drawer
           anchor="left"
           open
