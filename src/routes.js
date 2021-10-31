@@ -1,14 +1,14 @@
 import { Navigate } from 'react-router-dom';
-import DashboardLayout from './components/DashboardLayout';
-import MainLayout from './components/MainLayout';
-import Account from './pages/Account';
-import CustomerList from './pages/CustomerList';
-import Dashboard from './pages/Dashboard';
-import Login from './pages/Login';
-import NotFound from './pages/NotFound';
-import ProductList from './pages/ProductList';
-import Register from './pages/Register';
-import Settings from './pages/Settings';
+import DashboardLayout from '@components/DashboardLayout';
+import MainLayout from '@components/MainLayout';
+import Account from './views/Account';
+import CustomerList from './views/CustomerList';
+import Dashboard from './views/Dashboard';
+import Login from './views/Login';
+import NotFound from './views/NotFound';
+import ProductList from './views/ProductList';
+import Register from './views/Register';
+import Settings from './views/Settings';
 
 const routes = [
   {

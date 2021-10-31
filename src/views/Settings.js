@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { Box, Container } from '@mui/material';
-import SettingsNotifications from '../components/settings/SettingsNotifications';
-import SettingsPassword from '../components/settings/SettingsPassword';
+import SettingsNotifications from '@components/settings/SettingsNotifications';
+import SettingsPassword from '@components/settings/SettingsPassword';
 
 const SettingsView = () => (
   <>
